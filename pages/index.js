@@ -10,11 +10,13 @@ import {
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
+import Layout from '../components/layouts/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bios'
 
 const Page = () => {
   return (
+      <Layout>
     <Container>
       <Box
         borderRadius="lg"
@@ -108,6 +110,7 @@ const Page = () => {
         </Paragraph>
       </Section>
     </Container>
+    </Layout>
   )
 }
 
