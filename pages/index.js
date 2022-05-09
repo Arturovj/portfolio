@@ -11,6 +11,7 @@ import {
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { BioSection, BioYear } from '../components/bios'
 
 const Page = () => {
   return (
@@ -64,13 +65,47 @@ const Page = () => {
           </NextLink>
           .
         </Paragraph>
-       <Box align="center" my={4}>
-           <NextLink href="/works">
-               <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
-                   My portfolio
-               </Button>
-           </NextLink>
-        </Box> 
+        <Box align="center" my={4}>
+          <NextLink href="/works">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              My portfolio
+            </Button>
+          </NextLink>
+        </Box>
+      </Section>
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>1992</BioYear>
+          Born in Brussels, Belgium.
+        </BioSection>
+        <BioSection>
+          <BioYear>2011 - 2014</BioYear>
+          Finance and accounting Universidad Carlos III
+        </BioSection>
+        <BioSection>
+          <BioYear>2014 - 2015</BioYear>
+          Master in Banking and Financial Consulting CEF
+        </BioSection>
+        <BioSection>
+          <BioYear>2015 to Present</BioYear>
+          Freelancer as SoundEngineer.
+        </BioSection>
+        <BioSection>Teacher at SAE institute Madrid.</BioSection>
+        <BioSection>Producer at WARNER MUSIC GROUP.</BioSection>
+        <BioSection>Producer at GoPro company.</BioSection>
+        <BioSection>Ironhack Full Stack Developer Student</BioSection>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+        <Paragraph>
+          Coding, Music, Friends & Family.
+        </Paragraph>
       </Section>
     </Container>
   )
