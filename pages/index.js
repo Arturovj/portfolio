@@ -204,6 +204,9 @@ const Page = () => {
             <ListItem>
                 Next.js
             </ListItem>
+            <ListItem>
+                socket.io
+            </ListItem>
         </List>
       </Section>
       <Section delay={0.3}>
