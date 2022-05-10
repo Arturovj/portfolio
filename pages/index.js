@@ -5,14 +5,25 @@ import {
   Heading,
   Image,
   Link,
+  List,
+  ListItem,
   useColorModeValue,
-  Button
+  Button,
+  SimpleGrid,
+  Icon,
+
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bios'
+import { GridItem } from '../components/grid-item'
+import { 
+    IoLogoInstagram,
+    IoLogoGithub,
+    IoLogoLinkedin
+} from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -108,6 +119,34 @@ const Page = () => {
         <Paragraph>
           Coding, Music, Friends & Family.
         </Paragraph>
+      </Section>
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+            On the web
+        </Heading>
+        <List>
+            <ListItem>
+                <Link href='https://github.com/Arturovj' target="_blank">
+                    <Button variant="ghost" colorSchme="teal" leftIcon={<Icon as={IoLogoGithub}/>} >
+                        @Arturovj
+                    </Button>
+                </Link>
+            </ListItem>
+            <ListItem>
+                <Link href='https://instagram.com/arturovivar92' target="_blank">
+                    <Button variant="ghost" colorSchme="teal" leftIcon={<Icon as={IoLogoInstagram}/>} >
+                    @arturovivar92
+                    </Button>
+                </Link>
+            </ListItem>
+            <ListItem>
+                <Link href='https://es.linkedin.com/in/arturo-vivar-jimenez-16bb01a7' target="_blank">
+                    <Button variant="ghost" colorSchme="teal" leftIcon={<Icon as={IoLogoLinkedin}/>} >
+                        @Arturo Vivar Jimenez
+                    </Button>
+                </Link>
+            </ListItem>
+        </List>
       </Section>
     </Container>
     </Layout>
