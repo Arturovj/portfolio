@@ -26,7 +26,8 @@ import {
     IoLogoReact,
     IoLogoHtml5,
     IoLogoCss3,
-    IoLogoJavascript
+    IoLogoJavascript,
+    IoCode
 } from 'react-icons/io5'
 
 const Page = () => {
@@ -173,6 +174,13 @@ const Page = () => {
                     </Button>
                 </Link>
             </ListItem>
+            <ListItem>
+                <Link href='' target="_blank">
+                    <Button variant="ghost" colorSchme="teal" leftIcon={<Icon as={IoCode}/>} >
+                        SOLIDITY
+                    </Button>
+                </Link>
+            </ListItem>
         </List>
       </Section>
 
@@ -193,6 +201,9 @@ const Page = () => {
             <ListItem>
                 Mongoose
             </ListItem>
+            <ListItem>
+                Next.js
+            </ListItem>
         </List>
       </Section>
       <Section delay={0.3}>
@@ -200,9 +211,6 @@ const Page = () => {
           Tools
         </Heading>
         <List>
-            <ListItem>
-                Solidity
-            </ListItem>
             <ListItem>
                 SmartContracts
             </ListItem>
