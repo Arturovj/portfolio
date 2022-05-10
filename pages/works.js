@@ -16,7 +16,7 @@ const Works = () => {
             <SimpleGrid COLUMNS={[1,1,2]} gap={6}>
                 <Section>
                     <WorkGridItem id="royalty" title="Royalty" thumbnail={thumbRoyalty}>
-                        Web3 build platform to share artists royalties.
+                        Web3 built platform to share artists royalties.
                         Internal chat with Socket.io.
                         Smart Contracts with solidity.
                     </WorkGridItem>
@@ -27,7 +27,7 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="honorem" title="GoPro Song" thumbnail={thumbGopro}>
+                    <WorkGridItem id="gopro" title="GoPro" thumbnail={thumbGopro}>
                         GoPro soundtrack.
                         Near 100.000.000 streams across all platforms.
                     </WorkGridItem>
