@@ -28,6 +28,13 @@ const Work = () => {
             <Meta>Stack</Meta>
             <span>Node.js, Express</span>
           </ListItem>
+          <ListItem>
+            <Meta>GitHub Source</Meta>
+            <Link href="https://github.com/Arturovj/proyecto-modulo-2">
+            https://github.com/Arturovj/proyecto-modulo-2
+              <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
         </List>
         <WorkImage src="/images/works/irongym.jpg"></WorkImage>
       </Container>

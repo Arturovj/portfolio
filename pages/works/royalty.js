@@ -33,6 +33,12 @@ const Work = () => {
                         <Meta>Utilities</Meta>
                         <span>socket.io, Solidity, Web3</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>GitHub Source</Meta>
+                        <Link href='https://github.com/Arturovj/Royalty-web'>
+                        https://github.com/Arturovj/Royalty-web <ExternalLinkIcon mx="2px" />
+                    </Link>
+                    </ListItem>
                 </List>
                 <WorkImage src="/images/works/royalty.png">
 
