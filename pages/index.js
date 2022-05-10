@@ -120,6 +120,21 @@ const Page = () => {
           Coding, Music, Friends & Family.
         </Paragraph>
       </Section>
+
+      <Section>
+      <Heading as="h3" variant="section-title">
+          Languages
+        </Heading>
+        <BioSection>
+          French: Native
+        </BioSection>
+        <BioSection>
+        Spanish: Native
+        </BioSection>
+        <BioSection>
+        English: Proficient
+        </BioSection> 
+      </Section>
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
             On the web
