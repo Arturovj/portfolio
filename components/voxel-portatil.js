@@ -23,6 +23,8 @@ const VoxelPortatil = () => {
     )
     const [scene] = useState(new THREE.Scene())
     const [_controls, setControls] = useState()
+
+
   
     const handleWindowResize = useCallback(() => {
       const { current: container } = refContainer
@@ -113,12 +115,19 @@ const VoxelPortatil = () => {
     }
   }, [])
 
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowResize, false)
+    return() => {
+        window.removeEventListener('resize', handleWindowResize, false)
+    }
+  }, [renderer, handleWindowResize])
+
   return (
     <Box
       ref={refContainer}
       className="voxel-portatil"
       m="auto"
-      at={['-20px', '-60px', '-120px']}
+      mt={['-20px', '-60px', '-120px']}
       mb={['-40px', '-140px', '-200px']}
       w={[280, 480, 640]}
       h={[280, 480, 640]}
