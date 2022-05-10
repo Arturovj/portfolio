@@ -13,7 +13,7 @@ const VoxelPortatil = () => {
     const [loading, setLoading] = useState(true)
     const [renderer, setRenderer] = useState()
     const [_camera, setCamera] = useState()
-    const [target] = useState(new THREE.Vector3(-0.1, 0, 0.1))
+    const [target] = useState(new THREE.Vector3(-0.1, 0, 0.3))
     const [initialCameraPosition] = useState(
       new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
@@ -127,6 +127,7 @@ const VoxelPortatil = () => {
       ref={refContainer}
       className="voxel-portatil"
       m="auto"
+      ml={['25px']}
       mt={['-20px', '-60px', '-120px']}
       mb={['-40px', '-140px', '-200px']}
       w={[280, 480, 640]}
