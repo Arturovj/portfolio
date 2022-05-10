@@ -22,7 +22,11 @@ import { GridItem } from '../components/grid-item'
 import { 
     IoLogoInstagram,
     IoLogoGithub,
-    IoLogoLinkedin
+    IoLogoLinkedin,
+    IoLogoReact,
+    IoLogoHtml5,
+    IoLogoCss3,
+    IoLogoJavascript
 } from 'react-icons/io5'
 
 const Page = () => {
@@ -123,7 +127,7 @@ const Page = () => {
 
       <Section>
       <Heading as="h3" variant="section-title">
-          Languages
+          Human Languages
         </Heading>
         <BioSection>
           French: Native
@@ -135,6 +139,76 @@ const Page = () => {
         English: Proficient
         </BioSection> 
       </Section>
+
+      <Section delay={0.3}>
+      <Heading as="h3" variant="section-title">
+          Coding Languages
+        </Heading>
+        <List>
+            <ListItem>
+                <Link href='' target="_blank">
+                    <Button variant="ghost" colorSchme="teal" leftIcon={<Icon as={IoLogoReact}/>} >
+                        REACT
+                    </Button>
+                </Link>
+            </ListItem>
+            <ListItem>
+                <Link href='' target="_blank">
+                    <Button variant="ghost" colorSchme="teal" leftIcon={<Icon as={IoLogoHtml5}/>} >
+                    HTML
+                    </Button>
+                </Link>
+            </ListItem>
+            <ListItem>
+                <Link href='' target="_blank">
+                    <Button variant="ghost" colorSchme="teal" leftIcon={<Icon as={IoLogoCss3}/>} >
+                        CSS
+                    </Button>
+                </Link>
+            </ListItem>
+            <ListItem>
+                <Link href='' target="_blank">
+                    <Button variant="ghost" colorSchme="teal" leftIcon={<Icon as={IoLogoJavascript}/>} >
+                        JAVASCRIPT
+                    </Button>
+                </Link>
+            </ListItem>
+        </List>
+      </Section>
+
+      <Section delay={0.3}>
+      <Heading as="h3" variant="section-title">
+          Stacks
+        </Heading>
+        <List>
+            <ListItem>
+                Node.js
+            </ListItem>
+            <ListItem>
+               Express.js
+            </ListItem>
+            <ListItem>
+               MongoDB
+            </ListItem>
+            <ListItem>
+                Mongoose
+            </ListItem>
+        </List>
+      </Section>
+      <Section delay={0.3}>
+      <Heading as="h3" variant="section-title">
+          Tools
+        </Heading>
+        <List>
+            <ListItem>
+                Solidity
+            </ListItem>
+            <ListItem>
+                SmartContracts
+            </ListItem>
+        </List>
+      </Section>
+
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
             On the web
