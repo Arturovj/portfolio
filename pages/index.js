@@ -206,6 +206,12 @@ const Page = () => {
             <ListItem>
                 SmartContracts
             </ListItem>
+            <ListItem>
+                Git
+            </ListItem>
+            <ListItem>
+                GitHub
+            </ListItem>
         </List>
       </Section>
 
