@@ -5,6 +5,9 @@ import Layout from '../components/layouts/article'
 import thumbRoyalty from '../public/images/works/royalty.png'
 import thumbIronGym from '../public/images/works/irongym.jpg'
 import thumbGopro from '../public/images/works/gopro.png'
+import thumbMetamaskLogger from '../public/images/contents/metamask-logger.png'
+
+
 
 const Works = () => {
     return (
@@ -24,6 +27,11 @@ const Works = () => {
                 <Section>
                     <WorkGridItem id="irongym" title="IronGym" thumbnail={thumbIronGym}>
                         Web to find and write reviews of gyms near you. Used Html,Javascript,CSS,Express...
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="metamask" title="Metamask" thumbnail={thumbMetamaskLogger}>
+                    An easy App/Component to implement metamask login to your web/app
                     </WorkGridItem>
                 </Section>
                 <Section>

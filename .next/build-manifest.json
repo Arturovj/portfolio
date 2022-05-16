@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/works/royalty": [
+    "/works/metamask": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/royalty.js"
+      "static/chunks/pages/works/metamask.js"
     ]
   },
   "ampFirstPages": []
