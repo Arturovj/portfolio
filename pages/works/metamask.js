@@ -21,7 +21,9 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Google Chrome</span>
+                        <span>Google Chrome
+                            Metamask chrome extension
+                        </span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>

@@ -19,7 +19,8 @@ const Posts = () => (
             thumbnail={thumbMetamaskLogger}
             href="https://metamask-logger.vercel.app/"
             
-          > An easy App/Component to implement metamask login to your web/app</GridItem>
+          > An easy App/Component to implement metamask login to your web/app
+          YOU NEED METAMASK CHROME EXTENSION!</GridItem>
           
         
         </SimpleGrid>
