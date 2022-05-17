@@ -25,7 +25,7 @@ const Posts = () => (
           <GridItem
             title="Tesla Web3"
             thumbnail={thumbTesla}
-            href="https://vercel.com/arturovj/tesla"
+            href="https://tesla-vert.vercel.app/"
             
           > Tesla Web3 (Work in progress)</GridItem>
           
