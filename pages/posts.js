@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 
 import thumbMetamaskLogger from '../public/images/contents/metamask-logger.png'
+import thumbTesla from '../public/images/contents/tesla.png'
 
 const Posts = () => (
     <Layout title="Posts">
@@ -21,6 +22,12 @@ const Posts = () => (
             
           > An easy App/Component to implement metamask login to your web/app
           YOU NEED METAMASK CHROME EXTENSION!</GridItem>
+          <GridItem
+            title="Tesla Web3"
+            thumbnail={thumbTesla}
+            href="https://vercel.com/arturovj/tesla"
+            
+          > Tesla Web3 (Work in progress)</GridItem>
           
         
         </SimpleGrid>
