@@ -6,6 +6,7 @@ import thumbRoyalty from '../public/images/works/royalty.png'
 import thumbIronGym from '../public/images/works/irongym.jpg'
 import thumbGopro from '../public/images/works/gopro.png'
 import thumbMetamaskLogger from '../public/images/contents/metamask-logger.png'
+import thumbTesla from '../public/images/works/tesla.png'
 
 
 
@@ -21,6 +22,12 @@ const Works = () => {
                     <WorkGridItem id="royalty" title="Royalty" thumbnail={thumbRoyalty}>
                         Web3 built platform to share artists royalties.
                         Internal chat with Socket.io.
+                        Smart Contracts with solidity.
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="tesla" title="Tesla" thumbnail={thumbTesla}>
+                        Tesla Web3 built platform.
                         Smart Contracts with solidity.
                     </WorkGridItem>
                 </Section>
