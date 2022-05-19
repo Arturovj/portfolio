@@ -12,6 +12,7 @@ const Work = () => {
           Tesla <Badge>2022</Badge>
         </Title>
         Tesla Web3 built platform. Smart Contracts with solidity.
+        (WORK IN PROGRESS)
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
