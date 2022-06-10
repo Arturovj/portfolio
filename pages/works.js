@@ -7,6 +7,7 @@ import thumbIronGym from '../public/images/works/irongym.jpg'
 import thumbGopro from '../public/images/works/gopro.png'
 import thumbMetamaskLogger from '../public/images/contents/metamask-logger.png'
 import thumbTesla from '../public/images/works/tesla.png'
+import thumbCyberpvnkers from '../public/images/contents/cyberpvnkers.png'
 
 
 
@@ -27,13 +28,18 @@ const Works = () => {
                 </Section>
                 <Section>
                     <WorkGridItem id="tesla" title="Tesla" thumbnail={thumbTesla}>
-                        Tesla Web3 built platform.
+                        Tesla Web3 built platform. (Work in progress)
                         Smart Contracts with solidity.
                     </WorkGridItem>
                 </Section>
                 <Section>
                     <WorkGridItem id="irongym" title="IronGym" thumbnail={thumbIronGym}>
                         Web to find and write reviews of gyms near you. Used Html,Javascript,CSS,Express...
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="cyberpvnkers" title="CyberPvnkers" thumbnail={thumbCyberpvnkers}>
+                        Web3 Nft Collection (Work in progress)
                     </WorkGridItem>
                 </Section>
                 <Section>
