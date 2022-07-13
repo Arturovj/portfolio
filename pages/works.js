@@ -8,6 +8,7 @@ import thumbGopro from '../public/images/works/gopro.png'
 import thumbMetamaskLogger from '../public/images/contents/metamask-logger.png'
 import thumbTesla from '../public/images/works/tesla.png'
 import thumbCyberpvnkers from '../public/images/contents/cyberpvnkers.png'
+import thumbPorsche from '../public/images/contents/porsche.png'
 
 
 
@@ -19,6 +20,12 @@ const Works = () => {
                 Works
             </Heading>
             <SimpleGrid COLUMNS={[1,1,2]} gap={6}>
+            <Section>
+                    <WorkGridItem id="porsche" title="Porsche" thumbnail={thumbPorsche}>
+                        Porsche Web3 built platform. (Work in progress)
+                        Smart Contracts with solidity.
+                    </WorkGridItem>
+                </Section>
                 <Section>
                     <WorkGridItem id="royalty" title="Royalty" thumbnail={thumbRoyalty}>
                         Web3 built platform to share artists royalties.

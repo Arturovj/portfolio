@@ -35,10 +35,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/cyberpvnkers": [
+    "/works/porsche": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/cyberpvnkers.js"
+      "static/chunks/pages/works/porsche.js"
     ]
   },
   "ampFirstPages": []
